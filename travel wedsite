@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>landing page</title>
+        <style>
+            * {
+  box-sizing: border-box;
+
+
+}
+.search {
+  
+  font-size: 17px;
+  border: 1px solid grey;
+  background: #f1f1f1;
+}
+
+.b{
+    background-image: url("C:\\Users\\Navaneetha Krishnan\\Downloads\\background.webp"); 
+    background-size: 100% 100%;
+    width: 100%;
+    height: 780px;
+}
+.title{
+  text-align: center;
+}
+.button {
+  align-content: center;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 25px;
+}
+.select{
+  font-weight: bold;
+  padding: 25px;
+}
+
+.t{
+  padding-left: 30px;
+  border:none;
+}
+.bor{
+  border: none;
+  padding-left: 20px;
+}
+
+.about{
+  width:125px;
+}
+
+
+        </style>
+    </head>
+    <body>
+          
+          <div class="t">  
+          <input class="search" type="search" placeholder="Search...">
+        <select name="DESTINATION" class="bor arrow">
+            <option value="DESTINATION">DESTINATION</option>
+            <option value="KARUR">KARUR</option>
+            <option value="DINDIGUL">DINDIGUL</option>
+            <option value="CHENNAI">CHENNAI</option>
+          </select>
+          <select name="EXPRIENCE" class="bor">
+            <option value="DESTINATION">EXPERIENCE</option>
+            <option value="KARUR">KARUR</option>
+            <option value="DINDIGUL">DINDIGUL</option>
+            <option value="CHENNAI">CHENNAI</option>
+          </select>
+          <select name="INSPIRATION" class="bor">
+            <option value="DESTINATION">INSPIRATION</option>
+            <option value="KARUR">KARUR</option>
+            <option value="DINDIGUL">DINDIGUL</option>
+            <option value="CHENNAI">CHENNAI</option>
+          </select>
+          <select name="TRIP FINDER" class="bor">
+            <option value="DESTINATION">TRIP FINDER</option>
+            <option value="KARUR">KARUR</option>
+            <option value="DINDIGUL">DINDIGUL</option>
+            <option value="CHENNAI">CHENNAI</option>
+          </select>
+          <select name="MOST POPULAR" class="bor">
+            <option value="DESTINATION">MOST POPULAR</option>
+            <option value="KARUR">KARUR</option>
+            <option value="DINDIGUL">DINDIGUL</option>
+            <option value="CHENNAI">CHENNAI</option>
+          </select>
+          <select name="ABOUT US" class="bor about">
+            <option value="DESTINATION">ABOUT US</option>
+            <option value="KARUR">HOME</option>
+            <option value="DINDIGUL">BUY US A COFFEE</option>
+            <option value="CHENNAI">FEED BACK</option>
+          </select>
+         
+        </div>
+          <div class="b">
+          <p ><a href="">home</a>/the trip finder</p>
+          <br>
+          <H2 class="title"><b>THE TRIP FINDER</b></H2>
+          <br>
+          <P class="title">they say the world has seven wonders.we think that is only the begnning</P>
+         <br>
+          <div class="title">
+          <select class="select" name="WHEN DO YOU WANT TO TRAVEL">
+            <option value="DESTINATION">WHEN DO YOU WANT TO TRAVEL</option>
+            <option value="KARUR">ONE DAY</option>
+            <option value="DINDIGUL">ONE MONTH</option>
+            <option value="CHENNAI">ONE WEEK</option>
+          </select>
+          <select class="select" name="WHY DO YOU WANT TO TRAVEL">
+            <option value="DESTINATION">WHY DO YOU WANT TO TRAVEL</option>
+            <option value="KARUR">FUN</option>
+            <option value="DINDIGUL">VACATION</option>
+            <option value="CHENNAI">TRIP</option>
+          </select>
+          <br>
+          <br>
+          <br>
+          <button class="button">take me there</button>
+        </div>
+        
+          
+        
+        
+    </div>
+    </body>
+</html>
